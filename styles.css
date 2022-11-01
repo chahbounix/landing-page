@@ -155,4 +155,39 @@ blockquote::after {
     color:#1f2937
 }
   
+/* Fourth section */
   
+.section-four {
+    background-color: #f9faf8;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rect-5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 2em;
+    min-width: 60em;
+    border-radius: 10px;
+}
+button {
+    border: 1.5px solid #f9faf8;
+}
+
+/* Fifth section */
+
+.footer {
+    background-color: #1f2937;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    color: #e5e7eb;
+    font-size: small
+}
