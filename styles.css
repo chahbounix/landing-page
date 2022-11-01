@@ -1,0 +1,125 @@
+/* Header section */
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 5px 80px;
+    height: 30%;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+ul {
+    list-style: none;
+}
+.container-1 {
+    display: flex;
+    align-items: center;
+}
+.right-links {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight:700;
+    color: #f9faf8;
+    padding-left: 0;
+}
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+img {
+    max-height: 250px;
+    width: auto;
+    border-radius: 8px;}
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.second-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    align-content: space-around;
+}
+button {
+    border: none;
+    margin-top: 2px;
+    background-color: #3882F6;
+    padding: 6px 24px;
+    color: #e5e7eb;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+/* Second section */
+
+.section-two {
+    padding: 5px 80px;
+    height: 26%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.rectangles {
+    display: flex;
+    justify-content: space-around;
+
+}
+.rect-1 {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.rect-2 {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.rect-3 {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.rect-4 {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.texts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.text {
+    width: 150px;
+    color: #1f2937;
+}
+
+/* Third section */
