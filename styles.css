@@ -6,7 +6,7 @@ body {
 
 .header {
     padding: 5px 80px;
-    height: 30%;
+    min-height: 450px;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ button {
 
 .section-two {
     padding: 5px 80px;
-    height: 26%;
+    min-height: 300px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -123,3 +123,36 @@ h2 {
 }
 
 /* Third section */
+
+.section-three {
+    background-color: #e5e7eb;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    color: #1f2937;
+    font-size: 28px;
+    font-style: italic;
+    border-radius: 5px;
+    text-align:justify;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+blockquote::before {
+    content: open-quote;
+    font-weight: bold;
+    color:#1f2937
+}
+
+blockquote::after {
+    content: close-quote;
+    font-weight: bold;
+    color:#1f2937
+}
+  
+  
